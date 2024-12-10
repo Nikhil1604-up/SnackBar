@@ -8,11 +8,13 @@
   </head>
   <body>
     <div class="buttons">
-      <button>Success</button>
-      <button>Error</button>
-      <button>Invalid</button>
+      <button onclick="showToast('success')">Success</button>
+      <button onclick="showToast('error')">Error</button>
+      <button onclick="showToast('invalid')">Invalid</button>
     </div>
 
     <div id="toastBox"></div>
+
+    <script src="script.js"></script>
   </body>
 </html>
